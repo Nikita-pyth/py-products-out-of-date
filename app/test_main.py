@@ -25,6 +25,15 @@ from app.main import outdated_products
             }],
             datetime(2022, 2, 4).date(),
             []
+        ),
+        (
+                [{
+                    "name": "chicken",
+                    "expiration_date": datetime(2022, 2, 5).date(),
+                    "price": 120
+                }],
+                datetime(2022, 2, 5).date(),
+                []
         )
     ]
 )
