@@ -27,13 +27,13 @@ from app.main import outdated_products
             []
         ),
         (
-                [{
-                    "name": "chicken",
-                    "expiration_date": datetime(2022, 2, 5).date(),
-                    "price": 120
-                }],
-                datetime(2022, 2, 5).date(),
-                []
+            [{
+                "name": "chicken",
+                "expiration_date": datetime(2022, 2, 5).date(),
+                "price": 120
+            }],
+            datetime(2022, 2, 5).date(),
+            []
         )
     ]
 )
